@@ -1,0 +1,112 @@
+.row .footer{
+
+min-height: 379px;
+background-color: #1C1E53;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+.row .footer .left{
+    width: 50%;
+}
+.row .footer .left span{
+    display: block;
+    min-width: 160px;
+height: 32.405px;
+flex-shrink: 0;
+margin-left: 4vw;
+margin-top: 104px;
+}
+.row .footer .left p{
+   max-width: 399px;
+   max-height: 56px;
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: clamp(0.5rem , 2vw ,1rem);
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-left: 4vw;
+ /* 175% */
+}
+.row .footer .left .call{
+max-width: 30vw;
+height: 95px;
+display: flex;
+flex-flow: row wrap;
+flex-shrink: 0;
+margin-left: 4vw;
+margin-top: 86px;
+background-color: #FCD980;
+}
+.row .footer .left .call .left label{
+    color: var(--Dark-blue, #282938);
+
+ display: block;
+    font-family: Poppins;
+    font-size: clamp(00.5rem ,2vw ,1.1rem);
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-left: 2vw;
+    line-height: 32px; /* 177.778% */}
+
+    .row .footer .left .call .left p{
+        color: var(--Dark-blue, #282938);
+
+/* Paragraph */
+font-family: Poppins;
+font-size: clamp(0.5rem , 2vw ,1rem);
+font-style: normal;
+font-weight: 400;
+margin-left: 2vw;
+line-height: 28px; /* 175% */
+    }
+
+
+
+
+
+.row .footer .right{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+min-height: 208px;
+background-color: #1C1E53;
+}
+.row .footer .right h2{
+    color: #FFF;
+
+/* Heading 2 */
+font-family: Poppins;
+margin-top: 96px;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 133.333% */
+}
+.row .footer .right p{
+    max-width: 399px;
+    color: var(--Grey, #F4F6FC);
+
+/* Paragraph */
+font-family: Poppins;
+font-size: clamp(0.5rem , 2vw ,1rem);
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.row .footer .right  div{
+    display: block;
+    margin-top: 28px;
+}
+.row .footer .right  div span:nth-of-type(1){
+    margin-right: 26.67px;
+
+}
+.row .footer .right  div span:nth-of-type(2){
+    margin-right: 26.67px;
+    margin-left: 26.67px;
+
+
+}

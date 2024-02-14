@@ -1,0 +1,60 @@
+.row .titrr {
+  height: 172px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 128px;
+}
+.row .titrr h2 {
+  max-width: 949px;
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+.row .titrr p {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+
+  /* Label 2 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.row .picc img {
+  max-width: 100%;
+  height: 477px;
+  object-fit: fill;
+  object-position: center;
+  margin-top: 32px;
+}
+.row .picc p {
+  max-width: 831px;
+  color: var(--Dark-blue, #282938);
+margin: 0 auto;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 48px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.row .picc a {
+  text-align: center;
+  display: block;
+  color: var(--Royal-Blue, #2405f2);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;;
+  margin-top: 16px;
+  line-height: 28px; /* 175% */
+}

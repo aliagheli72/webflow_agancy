@@ -1,0 +1,79 @@
+.row .cont7 {
+  /* max-width: 1280px; */
+  min-height: 737px;
+
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+.row .cont7 .titr h2 {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 64px; /* 133.333% */
+}
+.row .cont7 .cards {
+  width: 100%;
+  min-height: 609px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.row .cont7 .cards .child {
+  width: 405px;
+  height: 609px;
+
+}
+.row .cont7 .cards .child .pic{
+    width: 405px;
+height: 285px;
+margin-bottom: 40px;
+}
+.row .cont7 .cards .child label{
+    width: 93px;
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.row .cont7 .cards .child h6{
+    color: var(--Dark-blue, #282938);
+
+margin-top: 16px;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+.row .cont7 .cards .child  p{
+    width: 405px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    opacity: 0.7;
+    margin-top: 16px;
+}
+.row .cont7 .cards .child a{
+    display: block;
+    color: #282938;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+text-decoration: none;
+margin-top: 32px;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.row .cont7 .cards .child a span{
+  margin-left: 12px;
+}

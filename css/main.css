@@ -1,0 +1,197 @@
+@import "./homepage/home.css";
+@import "./Pricing/Pricing.css";
+@import "./blogs/blogs.css";
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box; }
+
+.row {
+  display: flex;
+  flex-flow: row wrap; }
+
+@media only screen and (min-width: 0) {
+  .col-xs-1 {
+    width: 8.33333%;
+    padding: 0 10px; }
+  .col-xs-2 {
+    width: 16.66666%;
+    padding: 0 10px; }
+  .col-xs-3 {
+    width: 24.99999%;
+    padding: 0 10px; }
+  .col-xs-4 {
+    width: 33.33332%;
+    padding: 0 10px; }
+  .col-xs-5 {
+    width: 41.66665%;
+    padding: 0 10px; }
+  .col-xs-6 {
+    width: 49.99998%;
+    padding: 0 10px; }
+  .col-xs-7 {
+    width: 58.33331%;
+    padding: 0 10px; }
+  .col-xs-8 {
+    width: 66.66664%;
+    padding: 0 10px; }
+  .col-xs-9 {
+    width: 74.99997%;
+    padding: 0 10px; }
+  .col-xs-10 {
+    width: 83.3333%;
+    padding: 0 10px; }
+  .col-xs-11 {
+    width: 91.66663%;
+    padding: 0 10px; }
+  .col-xs-12 {
+    width: 99.99996%;
+    padding: 0 10px; }
+  .offset-xs-1 {
+    margin-left: 8.33333%; }
+  .offset-xs-2 {
+    margin-left: 16.66666%; }
+  .offset-xs-3 {
+    margin-left: 24.99999%; }
+  .offset-xs-4 {
+    margin-left: 33.33332%; }
+  .offset-xs-5 {
+    margin-left: 41.66665%; }
+  .offset-xs-6 {
+    margin-left: 49.99998%; }
+  .offset-xs-7 {
+    margin-left: 58.33331%; }
+  .offset-xs-8 {
+    margin-left: 66.66664%; }
+  .offset-xs-9 {
+    margin-left: 74.99997%; }
+  .offset-xs-10 {
+    margin-left: 83.3333%; }
+  .offset-xs-11 {
+    margin-left: 91.66663%; }
+  .offset-xs-12 {
+    margin-left: 99.99996%; } }
+
+@media only screen and (min-width: 576px) {
+  .col-md-1 {
+    width: 8.33333%;
+    padding: 0 10px; }
+  .col-md-2 {
+    width: 16.66666%;
+    padding: 0 10px; }
+  .col-md-3 {
+    width: 24.99999%;
+    padding: 0 10px; }
+  .col-md-4 {
+    width: 33.33332%;
+    padding: 0 10px; }
+  .col-md-5 {
+    width: 41.66665%;
+    padding: 0 10px; }
+  .col-md-6 {
+    width: 49.99998%;
+    padding: 0 10px; }
+  .col-md-7 {
+    width: 58.33331%;
+    padding: 0 10px; }
+  .col-md-8 {
+    width: 66.66664%;
+    padding: 0 10px; }
+  .col-md-9 {
+    width: 74.99997%;
+    padding: 0 10px; }
+  .col-md-10 {
+    width: 83.3333%;
+    padding: 0 10px; }
+  .col-md-11 {
+    width: 91.66663%;
+    padding: 0 10px; }
+  .col-md-12 {
+    width: 99.99996%;
+    padding: 0 10px; }
+  .offset-md-1 {
+    margin-left: 8.33333%; }
+  .offset-md-2 {
+    margin-left: 16.66666%; }
+  .offset-md-3 {
+    margin-left: 24.99999%; }
+  .offset-md-4 {
+    margin-left: 33.33332%; }
+  .offset-md-5 {
+    margin-left: 41.66665%; }
+  .offset-md-6 {
+    margin-left: 49.99998%; }
+  .offset-md-7 {
+    margin-left: 58.33331%; }
+  .offset-md-8 {
+    margin-left: 66.66664%; }
+  .offset-md-9 {
+    margin-left: 74.99997%; }
+  .offset-md-10 {
+    margin-left: 83.3333%; }
+  .offset-md-11 {
+    margin-left: 91.66663%; }
+  .offset-md-12 {
+    margin-left: 99.99996%; } }
+
+@media only screen and (min-width: 1200px) {
+  .col-lg-1 {
+    width: 8.33333%;
+    padding: 0 10px; }
+  .col-lg-2 {
+    width: 16.66666%;
+    padding: 0 10px; }
+  .col-lg-3 {
+    width: 24.99999%;
+    padding: 0 10px; }
+  .col-lg-4 {
+    width: 33.33332%;
+    padding: 0 10px; }
+  .col-lg-5 {
+    width: 41.66665%;
+    padding: 0 10px; }
+  .col-lg-6 {
+    width: 49.99998%;
+    padding: 0 10px; }
+  .col-lg-7 {
+    width: 58.33331%;
+    padding: 0 10px; }
+  .col-lg-8 {
+    width: 66.66664%;
+    padding: 0 10px; }
+  .col-lg-9 {
+    width: 74.99997%;
+    padding: 0 10px; }
+  .col-lg-10 {
+    width: 83.3333%;
+    padding: 0 10px; }
+  .col-lg-11 {
+    width: 91.66663%;
+    padding: 0 10px; }
+  .col-lg-12 {
+    width: 99.99996%;
+    padding: 0 10px; }
+  .offset-lg-1 {
+    margin-left: 8.33333%; }
+  .offset-lg-2 {
+    margin-left: 16.66666%; }
+  .offset-lg-3 {
+    margin-left: 24.99999%; }
+  .offset-lg-4 {
+    margin-left: 33.33332%; }
+  .offset-lg-5 {
+    margin-left: 41.66665%; }
+  .offset-lg-6 {
+    margin-left: 49.99998%; }
+  .offset-lg-7 {
+    margin-left: 58.33331%; }
+  .offset-lg-8 {
+    margin-left: 66.66664%; }
+  .offset-lg-9 {
+    margin-left: 74.99997%; }
+  .offset-lg-10 {
+    margin-left: 83.3333%; }
+  .offset-lg-11 {
+    margin-left: 91.66663%; }
+  .offset-lg-12 {
+    margin-left: 99.99996%; } }

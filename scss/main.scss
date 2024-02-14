@@ -1,0 +1,13 @@
+@import "./mixin";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+@include query(0px);
+@include query(576px);
+@include query(1200px);

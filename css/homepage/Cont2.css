@@ -1,0 +1,104 @@
+.cont2 .row .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 661px;
+  background-color: #f4f6fc;
+}
+
+.cont2 .row .left {
+  height: 661px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #f4f6fc;
+}
+
+.cont2 .row .right .hww {
+  width: 405px;
+  height: 184px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-shrink: 1;
+  /* margin-left: 165px; */
+  margin-top: 128px;
+  margin-bottom: 349px;
+}
+
+.cont2 .row .right .hww h2 {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: clamp(1rem, 2vw, 4rem);
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 64px; /* 133.333% */
+}
+
+.cont2 .row .right .hww p {
+  color: var(--Dark-blue, #282938);
+
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: clamp(0.08rem, 2vw, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 28px; /* 175% */
+}
+.cont2 .row .right .hww a {
+  color: var(--Royal-Blue, #2405f2);
+
+  /* Label 01 */
+  font-family: Poppins;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+.cont2 .row .left {
+  max-width: 100%;
+  /* height: 405px; */
+  /* display: flex;
+  flex-flow: column wrap; */
+}
+.cont2 .row .left .cards {
+  width: 631px;
+  height: 408px;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: 178px 178px;
+  gap: 48px 25px;
+}
+.cont2 .row .left .cards .child {
+  /* width: 303px;
+  height: 178px; */
+}
+.cont2 .row .left .cards .child .svg {
+  margin-bottom: 16px;
+}
+.cont2 .row .left .cards .child h5 {
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 5 */
+  font-family: Poppins;
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 150% */
+  margin-bottom: 8px;
+}
+
+.cont2 .row .left .cards .child p {
+  color: var(--Dark-blue, #282938);
+
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: clamp(0.5rem, 1vw, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

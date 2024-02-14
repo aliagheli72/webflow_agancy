@@ -1,0 +1,66 @@
+.row .our {
+  max-width: 1278px;
+  min-height: 1362px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 31px 31px;
+}
+.row .our .blogss {
+  width: 405px;
+  height: 593px;
+  flex-shrink: 0;
+}
+.row .our .blogss label{
+    display: block;
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+margin-top: 32px;
+margin-bottom: 16px;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.row .our .blogss h6{
+    width: 404px;
+    color: var(--Dark-blue, #282938);
+
+/* Heading 6 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 16px;
+line-height: 36px; /* 150% */
+}
+.row .our .blogss p{
+    width: 404px;
+    color: var(--Dark-blue, #282938);
+
+/* Paragraph */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.row .our .blogss a{
+    color: var(--Tint-blue, #1C1E53);
+    display: block;
+
+ margin-top: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 28px; /* 175% */
+
+}
+.row .our .blogss a span{
+    vertical-align: middle;
+    margin-left: 12px;
+}

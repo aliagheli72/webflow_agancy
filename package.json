@@ -1,0 +1,15 @@
+{
+  "name": "figmapr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "scssset" : "node-sass -w ./scss/main.scss -o ./css -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
